@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8"><title>The Trust Triad</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="/deck/Slide_Library_v2/kase-styles.css" rel="stylesheet">
+</head><body>
+<script>
+const SLIDE_DATA = {
+  "template": "two_cards",
+  "eyebrow": "WHY DEVELOPERS TRUST THE OUTPUT",
+  "headline": "The [Trust Triad]: how LVT developers ship AI-written code with confidence",
+  "card_1_title": "Treat AI first drafts as untrusted",
+  "card_1_sub": "They look tidy and idiomatic — which makes review harder, not easier",
+  "card_1_content": "--Anti-slop review — review for intent, not just style; never ship AI code with only AI-written tests\n--Adversarial multi-hat review — a security hat, a design hat and a black-box hat that debate the tradeoffs\n--Self-verifying loops — Claude runs builds, tests and lints to catch its own mistakes",
+  "card_2_title": "Shift security left",
+  "card_2_sub": "Catch issues while Claude writes — insecure code looks just as idiomatic",
+  "card_2_content": "--Secure-by-default OWASP skills applied as the code is written, with the 'why' explained\n--Security review as a standard step — injection, IDOR, auth, crypto, plus OWASP for LLM / Agentic AI\n--The marketplace is part of your attack surface — vet skills before installing",
+  "takeaway": "The trust triad turns 'the AI wrote it' from a risk into a reviewed, secure, signed-off change.",
+  "_sizes": {}
+};
+</script>
+<div id="kase-mount"></div>
+<script src="/deck/Slide_Library_v2/kase-render.js"></script>
+</body></html>
