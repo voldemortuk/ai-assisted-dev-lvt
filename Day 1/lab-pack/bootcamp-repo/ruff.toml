@@ -1,8 +1,0 @@
-# Lint is intentionally quiet so the Day 3 planted issues are LOGIC and SECURITY
-# problems a reviewer must reason about — not lint noise a formatter would catch.
-line-length = 100
-
-[lint]
-select = ["E", "F", "W"]
-# E501: long lines in seeded strings are fine for the lab.
-ignore = ["E501"]
